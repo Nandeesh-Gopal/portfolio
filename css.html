@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html style="margin:0 ;">
+<head>
+<style>
+    .flex{
+        border: 10px solid black;
+        display: flex;
+        min-height: 500px;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+    .box{
+        height: 100px;
+        width: 100px;
+        background-color:green;
+    }
+    .code{
+        font-size: 20pt;
+    }
+    body{
+        display: flex;
+        gap:10px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .flex2{
+        border: 10px solid black;
+        display: flex;
+        min-height: 500px;
+        gap: 10px;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    * {
+  box-sizing: border-box;
+}
+
+</style>
+    <title>css</title>
+</head>
+<body>
+    <div>
+    <h1>flex</h1>
+    <pre  class="code">
+    .flex{
+        border: 10px solid black;
+        display: flex;
+        min-height: 500px;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+
+    }
+    </pre>
+    <div class="flex">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    </div>
+    <div>
+        <h1></h1>
+        <pre class="code">
+        .flex2{
+            gap: 20px;
+            justify-content: start;
+        }
+        </pre>
+        <div class="flex2">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    </div>
+
+</body>
+</html>
