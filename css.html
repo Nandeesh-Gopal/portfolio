@@ -154,5 +154,75 @@
             <div class="box">9</div>
         </div>
     </div>
+    <div class="cont">
+        <h1>flex-shrink</h1>
+        <pre class="code">
+    .flex9{
+        display: flex;
+        flex-shrink: 1;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    #box1{
+        flex-shrink: 0;
+    }
+        </pre>
+        <div class="flex9 container">
+            <div id="box1" class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+        </div>
+        <p>In the above flex shrink example the first box is shrink value is set to zero we cant able to rezise it</p>
+    </div>
+    <div class="cont">
+        <h1>flex-grow</h1>
+        <pre class="code">
+    .flex10{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .box_grow{
+        flex-grow: 1;
+    }
+        </pre>
+        <div class="flex10 container">
+            <div class="box box_grow">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+        </div>
+        <p>In the above given example for the flex grow the first box is property is only set to the value 1</p>
+    </div>
+    <div class="cont">
+        <h1>flex-grow 2</h1>
+        <pre class="code">
+    .flex11{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    #box1{
+        flex-grow: 5;
+    }
+    #box2{
+        flex-grow: 1;
+    }
+        </pre>
+        <div class="flex11 container">
+            <div class="box" id="box1">1</div>
+            <div class="box" id="box2">2</div>
+            <div class="box" id="box2">3</div>
+            <div class="box" id="box2">4</div>
+            <div class="box" id="box2">5</div>
+        </div>
+    <p>In the flex-grow example 2 we can understand that the flex-grow not only have the 0 and 1 , we can use any nemeric value it only defines the percentage of grow when compare to the other boxes in the flex</p>
+    </div>
 </body>
 </html>

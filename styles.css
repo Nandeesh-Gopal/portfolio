@@ -76,3 +76,34 @@
         align-content: center;
         justify-content: center;
     }
+    .flex9{
+        display: flex;
+        flex-shrink: 1;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    #box1{
+        flex-shrink: 0;
+    }
+    .flex10{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .box_grow{
+        flex-grow: 1;
+    }
+    .flex11{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    #box1{
+        flex-grow: 5;
+    }
+    #box2{
+        flex-grow: 1;
+    }
